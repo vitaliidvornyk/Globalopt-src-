@@ -1,4 +1,4 @@
-@import 'base/_variables.scss';
+@import 'base/variables';
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -8,3 +8,5 @@
     max-width: 1140px;
     margin: 0 auto;
 }
+
+@import 'blocks/delivery';
