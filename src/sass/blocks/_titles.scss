@@ -29,7 +29,21 @@
     text-transform: uppercase;
     &__descr {
         font-size: 16px;
-        font-weight: bold;
         color: $main-color;
+    }
+    &_ourwork {
+        display: block;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        color: $main-color;
+    }
+    &_subtitle {
+        margin-top: 17px;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 1.14;
+        text-align: center;
+        color: $main-color2;
     }
 }

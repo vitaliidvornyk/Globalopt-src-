@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    &__menu {
+        width: 600px;
+        margin: 0;
+        list-style-type: none;
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__link {
+        font-size: 15px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: center;
+        &:hover {
+            text-decoration: underline;
+            color: $main-color;
+        }
+    }
+    &__item {
+        border-right: 1px dotted white;
+        padding-right: 14px;
+        &:last-child {
+            border-right: none;
+        }
+    }
+    &__ask {
+        font-size: 14px;
+        font-weight: 300;
+        text-align: right;
+        line-height: 1.26;
+        color: #ffffff;
+    }
+    &__phone {
+        display: block;
+        font-size: 19px;
+        font-weight: 700;
+        text-align: right;
+        line-height: 1.26;
+        color: #ffffff;
+    }
+}

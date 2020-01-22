@@ -9,7 +9,10 @@
     margin: 0 auto;
 }
 
+@import 'blocks/header';
 @import 'blocks/delivery';
 @import 'blocks/buttons';
 @import 'blocks/titles';
 @import 'blocks/advantages';
+@import 'blocks/ourwork';
+@import 'blocks/pseudo';
