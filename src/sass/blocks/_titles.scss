@@ -45,5 +45,19 @@
         line-height: 1.14;
         text-align: center;
         color: $main-color2;
+        &_white {
+            margin-top: 22px;
+            font-size: 19px;
+            line-height: 1.42;
+            text-align: center;
+            color: #ffffff;    
+        }
+    }
+    &_agent {
+        margin-top: 20px;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        color: #ffffff;
     }
 }
