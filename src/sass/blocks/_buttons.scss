@@ -10,11 +10,21 @@
     text-transform: uppercase;
     color: #ffffff;
     &_pay {
-        display: block;
         margin: 39px auto 0 auto;
         width: 230px;
         height: 57px;
         font-size: 15px;
         font-weight: 700;
+    }
+    &_prices {
+        margin-top: 25px;
+        width: 160px;
+        height: 45px;
+        font-size: 12px;
+        text-align: center;
+        color: #ffffff;        
+    }
+    &_submit {
+        margin-top: 30px;
     }
 }

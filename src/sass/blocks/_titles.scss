@@ -27,8 +27,9 @@
     text-align: center;
     color: $main-color2;
     text-transform: uppercase;
-    &__descr {
+    &_advantages {
         font-size: 16px;
+        font-weight: 700;
         color: $main-color;
     }
     &_ourwork {
@@ -38,21 +39,6 @@
         text-align: center;
         color: $main-color;
     }
-    &_subtitle {
-        margin-top: 17px;
-        font-size: 21px;
-        font-weight: 300;
-        line-height: 1.14;
-        text-align: center;
-        color: $main-color2;
-        &_white {
-            margin-top: 22px;
-            font-size: 19px;
-            line-height: 1.42;
-            text-align: center;
-            color: #ffffff;    
-        }
-    }
     &_agent {
         margin-top: 20px;
         font-size: 26px;
@@ -60,4 +46,27 @@
         text-align: center;
         color: #ffffff;
     }
+    &_form {
+        margin-top: 56px;
+        font-size: 28px;
+        text-align: center;
+        color: #3a3a3a;
+    }
+}
+.subtitle {
+    margin-top: 17px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.14;
+    text-align: center;
+    color: $main-color2;
+    &_white {
+        margin-top: 22px;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 1.42;
+        text-align: center;
+        color: #ffffff;
+        text-transform: none;    
+    }    
 }
