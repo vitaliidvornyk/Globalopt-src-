@@ -52,6 +52,12 @@
         text-align: center;
         color: #3a3a3a;
     }
+    &_managers {
+        margin-top: 20px;
+        font-size: 26px;
+        text-align: center;
+        color: #ffffff;
+    }
 }
 .subtitle {
     margin-top: 17px;
@@ -68,5 +74,13 @@
         text-align: center;
         color: #ffffff;
         text-transform: none;    
+    }
+    &_managers {
+        margin-top: 18px;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 1.42;
+        text-align: center;
+        color: #ffffff;
     }    
 }
