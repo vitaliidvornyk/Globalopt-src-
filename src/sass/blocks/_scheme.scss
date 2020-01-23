@@ -1,0 +1,36 @@
+.scheme {
+    min-height: 454px;
+    background-color: #f3f3f3;
+    padding: 51px 0 46px 0;
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        &_top {
+            width: 1127px;
+            justify-content: space-between;
+            margin: 29px auto 0 auto;
+        }
+        &_bottom {
+            width: 806px;
+            justify-content: space-between;
+            margin: 23px auto 0 auto;
+        }
+    }
+    &__item {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.43;
+        text-align: center;
+        color: $main-color2;
+    }
+}
