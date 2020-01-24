@@ -1,0 +1,39 @@
+.reviews {
+    min-height: 470px;
+    padding: 51px 0 65px 0;
+}
+.carousel {
+    padding: 31px 0 65px 0;
+    &__inner {
+        position: relative;
+        width: 600px;
+        margin: 0 auto;   
+    }
+    .slick-prev, .slick-next {
+        position: absolute;
+        border: none;
+        background-color: white;
+        top: 14%;
+        left: 200px;
+        z-index: 1;
+        img {
+            width: 14px;
+            height: 47px;
+        }
+    }
+    .slick-next {
+        top: 14%;
+        left: 370px;
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57;
+        color: #3a3a3a;
+        text-align: center;
+    }
+}
