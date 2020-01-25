@@ -1,6 +1,7 @@
 .reviews {
     min-height: 470px;
     padding: 51px 0 65px 0;
+    opacity: 50%;
 }
 .carousel {
     padding: 31px 0 65px 0;
@@ -11,8 +12,8 @@
     }
     .slick-prev, .slick-next {
         position: absolute;
+        background: none;
         border: none;
-        background-color: white;
         top: 14%;
         left: 200px;
         z-index: 1;

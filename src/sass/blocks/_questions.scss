@@ -1,0 +1,29 @@
+.questions {
+    min-height: 438px;
+    padding: 62px 0 79px 0;
+    background: url('../../img/bgquestions.jpg') center (center/cover) no-repeat;
+    &__header {
+        width: 896px;
+        margin: 0 auto;
+        background-color: #25333c;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    input {
+        width: 268px;
+        height: 45px;
+        border: solid 1px rgba(0, 0, 0, 0.21);
+        border-radius: 40px;
+    }
+    textarea {
+        resize: none;
+        margin-top: 8px;
+        width: 813px;
+        height: 71px;
+        border-radius: 8px;
+        border: solid 1px rgba(0, 0, 0, 0.21);
+    }
+}
