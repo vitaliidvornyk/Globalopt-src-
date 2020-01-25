@@ -6,3 +6,7 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><img src="../icons/rigth.svg"></button>'
     });
 });
+
+$(window).on( 'load', function() {
+    $('html, body').animate({scrollTop : 0});
+});
