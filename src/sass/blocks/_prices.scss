@@ -8,8 +8,8 @@
         justify-content: space-between;
     }
     &__item {
+        width: 265px;
         padding-bottom: 25px;
-        width: 261px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -28,16 +28,6 @@
         color: #ffffff;
         text-transform: uppercase;
     }
-    &__img {
-        display: block;
-        margin-top: 9px;
-        &_form {
-            display: block;
-            position: absolute;
-            left: 50%;
-            margin-left: -51px;
-        }
-    }
     &__time-delivery {
         margin-top: 12px;
         font-size: 14px;
@@ -53,16 +43,4 @@
         text-align: center;
         color: #2e2e2e;
     }
-    input {
-        width: 268px;
-        height: 45px;
-        border: solid 1px rgba(0, 0, 0, 0.21);
-        border-radius: 40px;
-    }
-}
-.form-border {
-    width: 1140px;
-    height: 166px;
-    border: solid 1px #898989;
-    margin-top: 71px;
 }
