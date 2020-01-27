@@ -3,10 +3,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    &_footer {
-        margin-top: 24px;
-
-    }
     &__menu {
         width: 600px;
         margin: 0;
@@ -53,7 +49,10 @@
         text-align: left;
         color: #ffffff;
     }
-    &__contacts_footer {
+    &__footer-contacts {
         margin-left: 230px;
+    }
+    &_footer {
+        margin-top: 24px;
     }
 }
