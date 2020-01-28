@@ -16,21 +16,21 @@
 
 	<section class="delivery">
 		<div class="container">
-			<div class="header">
-				<a href="#" class="header__logo">
+			<div class="delivery__header">
+				<a href="#" class="delivery__header-logo">
 					<img src="icons/gloptlogo.png" alt="logo">
 				</a>
-				<ul class="header__menu">
-					<li class="header__item"><a href="#" class="header__link">Преимущества</a></li>
-					<li class="header__item"><a href="#" class="header__link">Наша работа</a></li>
-					<li class="header__item"><a href="#" class="header__link">Цены</a></li>
-					<li class="header__item"><a href="#" class="header__link">Схема работы</a></li>
-					<li class="header__item"><a href="#" class="header__link">Отзывы</a></li>
-					<li class="header__item"><a href="#" class="header__link">Контакты</a></li>
+				<ul class="delivery__header-menu">
+					<li class="delivery__header-item"><a href="#" class="delivery__header-link">Преимущества</a></li>
+					<li class="delivery__header-item"><a href="#" class="delivery__header-link">Наша работа</a></li>
+					<li class="delivery__header-item"><a href="#" class="delivery__header-link">Цены</a></li>
+					<li class="delivery__header-item"><a href="#" class="delivery__header-link">Схема работы</a></li>
+					<li class="delivery__header-item"><a href="#" class="delivery__header-link">Отзывы</a></li>
+					<li class="delivery__header-item"><a href="#" class="delivery__header-link">Контакты</a></li>
 				</ul>
-				<div class="header__contacts">
-					<div class="header__ask">Есть вопросы?</div>
-					<a href="+79264230100" class="header__phone">+7 (926) 423 01 00</a>
+				<div>
+					<div class="delivery__header-ask">Есть вопросы?</div>
+					<a href="+79264230100" class="delivery__header-phone">+7 (926) 423 01 00</a>
 				</div>
 				<button class="button">Перезвоните мне</button>
 			</div>			
@@ -40,19 +40,19 @@
 			<img src="icons/Line.png" alt="line" class="delivery__img">
 			<div class="delivery__wrapper">
 				<div class="delivery__item">
-					<img src="icons/luggage.png" alt="luggage" class="delivery__icon">
+					<img src="icons/luggage.png" alt="luggage">
 					<div class="delivery__descr">Перевозка негабаритных и крупнотоннажных грузов</div>
 				</div>
 				<div class="delivery__item">
-					<img src="icons/declaration.png" alt="declaration" class="delivery__icon">
+					<img src="icons/declaration.png" alt="declaration">
 					<div class="delivery__descr">Самостоятельно декларируем и проводим таможенную очистку с оптимизацией кодов и ставок</div>
 				</div>
 				<div class="delivery__item">
-					<img src="icons/direct.png" alt="direct" class="delivery__icon">
+					<img src="icons/direct.png" alt="direct">
 					<div class="delivery__descr">Осуществляем прямые поставки с заводов от двери до двери</div>
 				</div>
 				<div class="delivery__item">
-					<img src="icons/guan.png" alt="guan" class="delivery__icon">
+					<img src="icons/guan.png" alt="guan">
 					<div class="delivery__descr">Экспресс доставка 1-2 дня из Гуанчжоу в Москву от 25$/кг </div>
 				</div>
 			</div>
@@ -187,7 +187,7 @@
 			<div class="prices__wrapper">
 				<div class="prices__item">
 					<div class="prices__item-title">Доставка морем</div>
-					<img src="icons/prices/sea.png" alt="sea" class="prices__img">
+					<img src="icons/prices/sea.png" alt="sea" class="prices__logo">
 					<div class="prices__time-delivery">
 						Доставка 35-50 дней<br>
 						<span class="title-orange title-orange_weigth">от 0,3$ за 1 кг</span>
@@ -200,7 +200,7 @@
 				</div>
 				<div class="prices__item">
 					<div class="prices__item-title">Ж/Д доставка</div>
-					<img src="icons/prices/train.png" alt="train" class="prices__img">
+					<img src="icons/prices/train.png" alt="train" class="prices__logo">
 					<div class="prices__time-delivery">
 						Доставка 15-28 дней<br>
 						<span class="title-orange title-orange_weigth">от 1$ за 1 кг</span>
@@ -212,7 +212,7 @@
 				</div>
 				<div class="prices__item">
 					<div class="prices__item-title">Автодоставка</div>
-					<img src="icons/prices/car.png" alt="car" class="prices__img">
+					<img src="icons/prices/car.png" alt="car" class="prices__logo">
 					<div class="prices__time-delivery">
 						Доставка 12-20 дня<br>
 						<span class="title-orange title-orange_weigth">от 1$ за 1 кг</span>
@@ -224,7 +224,7 @@
 				</div>
 				<div class="prices__item">
 					<div class="prices__item-title">Авиа доставка</div>
-					<img src="icons/prices/fly.png" alt="fly" class="prices__img">
+					<img src="icons/prices/fly.png" alt="fly" class="prices__logo">
 					<div class="prices__time-delivery">
 						Доставка 1-12 дней<br>
 						<span class="title-orange title-orange_weigth">от 6$ за 1 кг</span>
@@ -243,7 +243,7 @@
 					<input type="phone" required placeholder="Ваш номер телефона...">
 					<input type="email" required placeholder="Ваш e-mail...">
 				</div>
-				<button class="button button_form-prices">Отправить заявку</button>
+				<button class="button button_form-consultation">Отправить заявку</button>
 			</form>	
 		</div>
 	</section>
@@ -253,8 +253,7 @@
 		<div class="container">
 			<img src="icons/managers.png" alt="managers" class="managers__img">
 			<h2 class="title title_managers">Менеджеры компании</h2>
-			<h2 class="subtitle subtitle_managers">Подберут для Вас оптимальную схему грузоперевозки. Проведут контроль закупок, организуют прямые
-				поставки от завода-изготовителя.
+			<h2 class="subtitle subtitle_managers">Подберут для Вас оптимальную схему грузоперевозки. Проведут контроль закупок, организуют прямые поставки от завода-изготовителя.
 			</h2>
 		</div>
 	</section>
@@ -375,16 +374,16 @@
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.6065455240664!2d37.625029315930284!3d55.74796498055206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54af8f4b2bb81%3A0x45d8b81f41916c35!2z0KHQsNC00L7QstC90LjRh9C10YHQutCw0Y8g0YPQuy4sIDUsINCc0L7RgdC60LLQsCwg0KDQvtGB0YHQuNGPLCAxMTUwMzU!5e0!3m2!1sru!2sua!4v1580136885725!5m2!1sru!2sua" allowfullscreen="">
 		</iframe>
 		<div class="container">
-			<div class="header header_footer">
-				<a href="#" class="header__logo">
+			<div class="footer__header">
+				<a href="#" class="footer__header-logo">
 					<img src="icons/gloptlogo.png" alt="logo">
 				</a>
-				<div class="header__descr">
+				<div class="footer__header-descr">
 					Global Opt - Доставка грузов из Китая в Россию и СНГ
 				</div>
-				<div class="header__contacts header__footer-contacts">
-					<div class="header__ask">Есть вопросы?</div>
-					<a href="+79264230100" class="header__phone">+7 (926) 423 01 00</a>
+				<div class="footer__header-contacts">
+					<div class="footer__header-ask">Есть вопросы?</div>
+					<a href="+79264230100" class="footer__header-phone">+7 (926) 423 01 00</a>
 				</div>
 				<button class="button">Перезвоните мне</button>
 			</div>	

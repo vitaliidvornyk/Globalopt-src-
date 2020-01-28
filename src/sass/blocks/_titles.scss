@@ -3,7 +3,7 @@
     font-size: 24px;
     font-weight: 300;
     text-align: center;
-    color: #ffffff;
+    color: $main-color3;
 }
 .title-delivery {
     margin-top: 26px;
@@ -19,7 +19,7 @@
     font-weight: 400;
     line-height: 1;
     text-align: center;
-    color: #ffffff;
+    color: $main-color3;
 }
 .title-orange {
     font-size: 16px;
@@ -54,7 +54,7 @@
         font-size: 26px;
         font-weight: 700;
         text-align: center;
-        color: #ffffff;
+        color: $main-color3;
     }
     &_form {
         margin-top: 56px;
@@ -66,7 +66,7 @@
         margin-top: 20px;
         font-size: 26px;
         text-align: center;
-        color: #ffffff;
+        color: $main-color3;
     }
     &_scheme {
         font-size: 26px;
@@ -84,7 +84,7 @@
         font-weight: 700;
         text-align: center;
         text-transform: uppercase;
-        color: #ffffff;
+        color: $main-color3;
     }
 
 }
@@ -101,7 +101,7 @@
         font-weight: 300;
         line-height: 1.42;
         text-align: center;
-        color: #ffffff;
+        color: $main-color3;
         text-transform: none;    
     }
     &_managers {
@@ -110,7 +110,7 @@
         font-weight: 300;
         line-height: 1.42;
         text-align: center;
-        color: #ffffff;
+        color: $main-color3;
     }    
     &_scheme {
         font-size: 16px;

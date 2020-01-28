@@ -9,6 +9,17 @@
         width: 600px;
         margin: 0 auto;   
     }
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57;
+        color: #3a3a3a;
+        text-align: center;
+    }
     .slick-prev, .slick-next {
         position: absolute;
         background: none;
@@ -24,16 +35,5 @@
     .slick-next {
         top: 14%;
         left: 370px;
-    }
-    &__img {
-        display: block;
-        margin: 0 auto;
-    }
-    &__descr {
-        font-size: 14px;
-        font-weight: 300;
-        line-height: 1.57;
-        color: #3a3a3a;
-        text-align: center;
     }
 }
