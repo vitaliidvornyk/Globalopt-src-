@@ -4,6 +4,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    position: relative;
+}
+
 @import 'blocks/delivery';
 @import 'blocks/buttons';
 @import 'blocks/titles';

@@ -2,6 +2,9 @@
     min-height: 680px;
     padding: 23px 0 82px 0;
     background: url('../../img/bgdelivery.jpg') center (center/cover) no-repeat;
+    .hamburger {
+        display: none;
+    }   
     &__header {
         display: flex;
         flex-direction: row;
@@ -61,7 +64,6 @@
         margin-top: 30px;
     }
     &__item {
-        width: 262px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;

@@ -50,11 +50,6 @@
 			font-size: 36px;
 		}
 	}
-	.ourwork {
-		&__item {
-			width: 280px;
-		}
-	}
 	.prices {
 		&__item {
 			width: 220px;
@@ -185,9 +180,6 @@
 		&__wrapper {
 			margin-top: 30px;
 		}
-		&__item {
-			width: 200px;
-		}
 		&__descr {
 			margin-top: 17px;
 			font-size: 11px;
@@ -256,6 +248,262 @@
 		}
 		&__header-contacts {
 			margin: 0;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.button {
+		&_prices {
+			width: 100px;
+			height: 30px;
+			font-size: 10px;
+		}
+		&_pay {
+			margin-top: 60px;
+			width: 130px;
+			font-size: 11px;
+			height: 35px;
+		}
+		&_form-consultation {
+			widows: 160px;
+			height: 42px;
+			margin: 30px 0 0 -90px;
+		}
+		&_questions {
+			width: 130px;
+			height: 40px;
+		}
+		&_call-footer {
+			width: 100px;
+			font-size: 8px;
+		}
+	}
+
+	.title {
+		font-size: 20px;
+		&_form {
+			margin-top: 25px;
+		}
+		&_questions {
+			font-size: 17px;
+		}
+	}
+
+	.subtitle {
+		font-size: 15px;
+	}
+
+	.title-orange {
+		&_weigth {
+			font-size: 15px;
+		}
+		&_ourwork {
+			font-size: 11px;
+		}
+		&_scheme {
+			font-size: 11px;
+		}
+	}
+
+	.delivery {
+		min-height: 540px;
+		padding: 10px 0 82px 0;
+		.hamburger {
+			display: block;
+			position: absolute;
+			right: 15px;
+			top: 6.5%;
+			width: 40px;
+			height: 33px;
+			span {
+				display: block;
+				height: 4px;
+				width: 100%;
+				background-color: #ffffff;
+				margin-bottom: 7px;
+				transition: 0.5s all;
+			}
+			&_active {
+				span {
+					margin-bottom: -4px;
+					&:nth-child(1) {
+						transform: rotate(-45deg);
+					}
+					&:nth-child(2) {
+						display: none;
+					}
+					&:nth-child(3) {
+						transform: rotate(45deg);
+					}
+				}
+			}
+		}
+		&__header {
+			padding: 0 50px;
+		}
+		&__header-menu {
+			position: fixed;
+			justify-content: center;
+			align-items: center;
+			top: 0;
+			left: -100%;
+			width: 50%;
+			height: 100vh;
+			padding: 20px;
+			flex-direction: column;
+			background-color: rgba(69, 63, 63, .8);
+			transition: 0.6s all;
+			&_active {
+				left: 0;
+			}
+		}
+		&__header-item {
+			padding: 0px;
+			border: none;
+			margin: 10px 0;
+		}
+		&__header-link {
+			font-size: 18px;
+		}
+		.title-global {
+			font-size: 15px;
+		}
+		.title-delivery {
+			margin-top: 10px;
+			font-size: 35px;
+		}
+		.title-subtitle {
+			font-size: 18px;
+		}
+		&__img {
+			margin-top: 10px;
+		}
+		&__wrapper {
+			margin-top: 10px;
+		}
+	}
+
+	.prices {
+		min-height: 720px;
+		&__item-title {
+			font-size: 10px;
+		}
+		&__descr {
+			font-size: 10px;
+			margin-top: 0px;
+		}
+		&__time-delivery {
+			margin-top: 5px;
+			font-size: 12px;
+		}
+	}
+
+	.reviews {
+		.carousel {
+			&__inner {
+				width: 100%;
+			}
+			.slick-prev {
+				left: 160px;
+			}
+			.slick-next {
+				left: 320px;
+			}		
+		}
+	}
+
+	.advantages {
+		&__item {
+			flex-direction: column;
+			align-items: center;
+		}
+		&__icon {
+			margin: 0 auto;
+		}
+		&__descr {
+			line-height: 1.3;
+			text-align: center;
+		}
+	}
+
+	.ourwork {
+		min-height: 450px;
+		padding: 51px 0 51px 0;		
+		&__descr {
+			text-align: center;
+			line-height: 1.3;
+		}
+	}
+
+	.form-consultation {
+		padding-top: 48px;
+		margin-top: 55px;
+		&__wrapper {
+			justify-content: space-between;
+			input {
+				width: 33%;
+				height: 36px;
+				font-size: 12px;
+			}
+		}
+		&__img {
+			width: 13%;
+			top: -34px;
+			margin-left: -33px;
+		}
+	}
+
+	.managers {
+		min-height: 300px;
+		padding: 30px 0 30px 0;
+	}
+
+	.scheme {
+		min-height: 400px;
+		&__wrapper {
+			&_top {
+				margin-top: 20px;
+				align-items: baseline;
+			}
+			&_bottom {
+				align-items: baseline;
+			}
+		}
+		&__img {
+			width: 25%;
+		}
+		&__descr {
+			line-height: 1.2;
+		}
+	}
+
+	.questions {
+		min-height: 350px;
+		padding: 25px 0 30px 0;
+	}
+
+	.form-questions {
+		&__wrapper {
+			input {
+				width: 33%;
+				height: 40px;
+				font-size: 12px;
+			}		
+		}
+		&__text {
+			height: 60px;
+		}				
+	}
+
+	.footer {
+		min-height: 650px;
+		&__header-img {
+			width: 80%;
+		}
+		&__header-descr {
+			font-size: 10px;
+			width: 20%;
 		}
 	}
 }
