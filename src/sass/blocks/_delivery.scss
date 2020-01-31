@@ -11,8 +11,12 @@
         justify-content: space-between;
         align-items: center;
     }
+    &__header-logo {
+        width: 10%;
+    }
     &__header-img {
         display: block;
+        width: 100%;
         margin: 0 auto;
     }
     &__header-menu {
@@ -39,6 +43,13 @@
             text-decoration: underline;
             color: $main-color;
         }
+    }
+    &__contacts {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__contacts-wrapper {
+        margin-right: 19px;
     }
     &__header-ask {
         font-size: 14px;

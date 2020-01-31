@@ -21,6 +21,12 @@
 		}
 	}
 	.delivery {
+		&__header {
+			justify-content: space-evenly;
+		}
+		&__header-logo {
+			width: 6%;
+		}
 		&__header-menu {
 			align-items: center;
 		}
@@ -66,9 +72,9 @@
 @media (max-width: 991px) {
 	.button {
 		&_call {
-			width: 130px;
+			width: 117px;
 			height: 35px;
-			font-size: 11px;
+			font-size: 9px;
 		}
 		&_pay {
 			width: 160px;
@@ -117,15 +123,28 @@
 	}
 
 	.delivery {
-		&__header-link {
-			font-size: 12px;
+		&__header-logo {
+			width: 10%;
 		}
-		&__contacts {
-			display: none;
+		&__header-link {
+			font-size: 10px;
+			font-weight: 300;
 		}
 		&__header-item {
 			line-height: 1;
 			text-align: center;
+		}
+		&__contacts {
+			align-items: center;
+		}
+		&__contacts-wrapper {
+			margin-right: 7px;
+		}
+		&__header-ask {
+			font-size: 12px;
+		}
+		&__header-phone {
+			font-size: 10px;
 		}
 		.title-global {
 			font-size: 17px;
@@ -223,6 +242,7 @@
 	}
 
 	.footer {
+		min-height: 640px;
 		padding: 0;
 		&__header-logo {
 			width: 80px;
@@ -247,6 +267,9 @@
 
 @media (max-width: 767px) {
 	.button {
+		&_call {
+			width: 150px;
+			height: 36px;		}
 		&_prices {
 			width: 100px;
 			height: 30px;
@@ -259,7 +282,7 @@
 			height: 35px;
 		}
 		&_form-consultation {
-			widows: 160px;
+			width: 160px;
 			height: 42px;
 			margin: 30px 0 0 -90px;
 		}
@@ -289,7 +312,7 @@
 
 	.title-orange {
 		&_weigth {
-			font-size: 15px;
+			font-size: 14px;
 		}
 		&_ourwork {
 			font-size: 11px;
@@ -306,8 +329,8 @@
 			display: block;
 			position: absolute;
 			right: 15px;
-			top: 5%;
-			width: 40px;
+			top: 7%;
+			width: 44px;
 			height: 33px;
 			span {
 				display: block;
@@ -320,24 +343,24 @@
 			&_active {
 				span {
 					&:nth-child(1) {
-						margin-top: 10px;
+						margin-top: 6px;
 						transform: rotate(-45deg);
 					}
 					&:nth-child(2) {
 						display: none;
 					}
 					&:nth-child(3) {
-						margin-top: -10px;
+						margin-top: -11px;
 						transform: rotate(45deg);
 					}
 				}
 			}
 		}
 		&__header {
-			padding: 0 50px;
+			justify-content: space-between;
 		}
-		&__header-img {
-			width: 70%;
+		&__header-logo {
+			width: 16%;
 		}
 		&__header-menu {
 			position: fixed;
@@ -363,6 +386,16 @@
 		}
 		&__header-link {
 			font-size: 18px;
+		}
+		&__contacts {
+			flex-direction: column;
+			margin-right: 51px;
+		}
+		&__header-ask {
+			display: none;			
+		}
+		&__header-phone {
+			font-size: 17px;
 		}
 		.title-global {
 			font-size: 15px;
@@ -508,5 +541,99 @@
 }
 
 @media (max-width: 575px) {
-	
+	.delivery {
+		padding: 10px 0 27px 0;;
+		.hamburger {
+			top: 5%;
+		}
+		&__header-logo {
+			width: 20%;
+		}
+	}
+
+	.scheme {
+		&__descr {
+			font-size: 11px;
+		}
+	}
+
+	.reviews {
+		.carousel {
+			.slick-prev {
+				left: 95px;
+			}
+			.slick-next {
+				left: 262px;
+			}
+		}
+	}
+
+	.prices {
+		&__item {
+			justify-content: space-between;
+		}
+		&__item-title {
+			padding: 5px 0;
+		}
+		&__logo {
+			margin-top: 6px;
+		}
+		&__descr {
+			font-size: 9px;
+		}
+	}
+
+	.button {
+		&_call {
+			font-size: 13px;
+		}
+		&_prices {
+			width: 80px;
+			height: 20px;
+		}
+		&_form-consultation {
+			width: 140px;
+			height: 36px;
+			margin: 20px 0 0 -70px;
+		}
+		&_questions {
+			height: 30px;
+			font-size: 11px;
+		}
+	}
+
+	.form-consultation {
+		margin-top: 36px;
+		padding: 28px 0 38px 0;
+		&__wrapper {
+			input {
+				height: 30px;
+				font-size: 9px;
+			}
+		}
+		&__img {
+			width: 13%;
+			top: -27px;
+			margin-left: -25px;
+		}
+	}
+
+	.form-questions {
+		&__wrapper {
+			input {
+				height: 30px;
+				font-size: 9px;	
+			}
+		}
+	}
+
+	.footer {
+		min-height: 610px;
+		&__header-logo {
+			width: 65px;
+		}
+		&__header-descr {
+			display: none;
+		}
+	}
 }
