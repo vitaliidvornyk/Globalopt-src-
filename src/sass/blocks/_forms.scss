@@ -8,7 +8,7 @@
         position: absolute;
         top: -50px;
         left: 50%;
-        margin-left: -51px;
+        transform: translateX(-50%);
     }
     &__wrapper {
         display: flex;

@@ -5,10 +5,15 @@
         margin-top: 34px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
+    }
+    &__wrapper1, &__wrapper2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
     &__item {
-        width: 265px;
+        width: 48%;
         padding-bottom: 25px;
         display: flex;
         flex-direction: column;

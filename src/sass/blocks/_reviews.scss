@@ -24,8 +24,9 @@
         position: absolute;
         background: none;
         border: none;
-        top: 14%;
-        left: 200px;
+        top: 30px;
+        left: 32%;
+        transform: translateX(-50%);
         z-index: 1;
         img {
             width: 14px;
@@ -33,7 +34,7 @@
         }
     }
     .slick-next {
-        top: 14%;
-        left: 370px;
+        top: 30px;
+        left: 68%;
     }
 }
