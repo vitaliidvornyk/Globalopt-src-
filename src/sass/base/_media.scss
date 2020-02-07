@@ -1,26 +1,4 @@
 @media (max-width: 1200px) {
-	.button {
-		&_call {
-			width: 135px;
-			height: 40px;    
-		}
-		&_pay {
-			width: 200px;
-			height: 50px;
-			font-size: 14px;
-		}
-		&_prices {
-			width: 145px;
-			height: 40px;
-			font-size: 11px;
-		}
-		&_call-footer {
-			width: 140px;
-			height: 40px;
-			font-size: 11px;
-		}
-	}
-
 	.delivery {
 		&__header {
 			justify-content: space-evenly;
@@ -63,68 +41,36 @@
 		}
 	}
 
-
 	.footer {
 		&__header-contacts {
 			margin-left: 50px;
 		}
 	}
 
+	.button {
+		&_call {
+			width: 135px;
+			height: 40px;    
+		}
+		&_pay {
+			width: 200px;
+			height: 50px;
+			font-size: 14px;
+		}
+		&_prices {
+			width: 145px;
+			height: 40px;
+			font-size: 11px;
+		}
+		&_call-footer {
+			width: 140px;
+			height: 40px;
+			font-size: 11px;
+		}
+	}
 }
 
 @media (max-width: 991px) {
-	.button {
-		&_call {
-			width: 117px;
-			height: 35px;
-			font-size: 9px;
-		}
-		&_pay {
-			width: 160px;
-			height: 40px;
-			font-size: 12px;
-		}
-		&_call-footer {
-			width: 120px;
-			height: 35px;
-			font-size: 10px;
-		}
-	}
-
-	.title-orange {
-		font-size: 15px;
-		&_ourwork {
-			font-size: 13px;
-		}
-		&_weigth {
-			font-size: 25px;
-		}
-	}
-
-	.line::before {
-		margin-top: 10px;
-	}
-
-	.title {
-		&_form {
-			margin-top: 45px;
-		}
-	}
-
-	.subtitle {
-		font-size: 18px;
-	}
-
-	.form-consultation {
-		&__wrapper {
-			padding: 0 30px;
-		}
-		&__img {
-			width: 14%;
-			top: -48px;
-		}
-	}
-
 	.delivery {
 		&__header-logo {
 			width: 10%;
@@ -262,73 +208,70 @@
 			margin: 0;
 		}
 	}
-}
 
-@media (max-width: 767px) {
 	.button {
 		&_call {
-			width: 150px;
-			height: 36px;		}
-		&_prices {
-			width: 100px;
-			height: 30px;
-			font-size: 10px;
+			width: 117px;
+			height: 35px;
+			font-size: 9px;
 		}
 		&_pay {
-			margin-top: 60px;
-			width: 130px;
-			font-size: 11px;
-			height: 35px;
-		}
-		&_form-consultation {
 			width: 160px;
-			height: 42px;
-			margin: 30px 0 0 -90px;
-		}
-		&_questions {
-			width: 130px;
 			height: 40px;
+			font-size: 12px;
 		}
 		&_call-footer {
-			width: 100px;
-			font-size: 8px;
+			width: 120px;
+			height: 35px;
+			font-size: 10px;
 		}
 	}
 
-	.title {
-		font-size: 20px;
-		&_form {
-			margin-top: 25px;
+	.title-orange {
+		font-size: 15px;
+		&_ourwork {
+			font-size: 13px;
 		}
-		&_questions {
-			font-size: 17px;
+		&_weigth {
+			font-size: 25px;
+		}
+	}
+
+	.line::before {
+		margin-top: 10px;
+	}
+
+	.title {
+		&_form {
+			margin-top: 45px;
 		}
 	}
 
 	.subtitle {
-		font-size: 15px;
+		font-size: 18px;
 	}
 
-	.title-orange {
-		&_weigth {
-			font-size: 14px;
+	.form-consultation {
+		&__wrapper {
+			padding: 0 30px;
 		}
-		&_ourwork {
-			font-size: 11px;
-		}
-		&_scheme {
-			font-size: 11px;
+		&__img {
+			width: 14%;
+			top: -48px;
 		}
 	}
+}
 
+@media (max-width: 767px) {
 	.delivery {
 		min-height: 540px;
 		padding: 10px 0 82px 0;
 		.hamburger {
 			display: block;
 			position: absolute;
-			right: 15px;
-			top: 7%;
+			top: 30px;
+			left: 95%;
+			transform: translateX(-50%);
 			width: 44px;
 			height: 33px;
 			span {
@@ -530,17 +473,78 @@
 			width: 20%;
 		}
 	}
+
+	.button {
+		&_call {
+			width: 150px;
+			height: 36px;		}
+		&_prices {
+			width: 100px;
+			height: 30px;
+			font-size: 10px;
+		}
+		&_pay {
+			margin-top: 60px;
+			width: 130px;
+			font-size: 11px;
+			height: 35px;
+		}
+		&_form-consultation {
+			width: 160px;
+			height: 42px;
+			margin: 30px 0 0 -90px;
+		}
+		&_questions {
+			width: 130px;
+			height: 40px;
+		}
+		&_call-footer {
+			width: 100px;
+			font-size: 8px;
+		}
+	}
+
+	.title {
+		font-size: 20px;
+		&_form {
+			margin-top: 25px;
+		}
+		&_questions {
+			font-size: 17px;
+		}
+	}
+
+	.subtitle {
+		font-size: 15px;
+	}
+
+	.title-orange {
+		&_weigth {
+			font-size: 14px;
+		}
+		&_ourwork {
+			font-size: 11px;
+		}
+		&_scheme {
+			font-size: 11px;
+		}
+	}
 }
 
 @media (max-width: 575px) {
-
 	.delivery {
 		padding: 10px 0 27px 0;;
 		.hamburger {
-			top: 5%;
+			top: 25px;
 		}
 		&__header-logo {
 			width: 13%;
+		}
+		&__contacts-wrapper {
+			margin-right: 0px;
+		}
+		&__header-phone {
+			font-size: 15px;
 		}
 		&__wrapper {
 			flex-direction: column;
@@ -643,6 +647,16 @@
 		}
 	}
 
+	.footer {
+		min-height: 610px;
+		&__header-logo {
+			width: 65px;
+		}
+		&__header-descr {
+			display: none;
+		}
+	}
+	
 	.subtitle {
 		font-size: 19px;
 		font-weight: 400;
@@ -659,7 +673,9 @@
 
 	.button {
 		&_call {
-			font-size: 13px;
+			font-size: 11px;
+			width: 130px;
+		    height: 30px;
 		}
 		&_prices {
 			margin-top: 10px;
@@ -698,16 +714,6 @@
 				height: 30px;
 				font-size: 9px;	
 			}
-		}
-	}
-
-	.footer {
-		min-height: 610px;
-		&__header-logo {
-			width: 65px;
-		}
-		&__header-descr {
-			display: none;
 		}
 	}
 }

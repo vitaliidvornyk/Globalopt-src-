@@ -2,14 +2,15 @@
     min-height: 680px;
     padding: 23px 0 82px 0;
     background: url("../img/bgdelivery.jpg") center (center/cover) no-repeat;
-    .hamburger {
-        display: none;
-    }   
     &__header {
+        position: relative;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        .hamburger {
+            display: none;
+        }       
     }
     &__header-logo {
         width: 10%;
