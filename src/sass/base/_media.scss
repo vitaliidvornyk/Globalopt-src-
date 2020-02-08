@@ -110,6 +110,12 @@
 		&__wrapper {
 			margin-top: 40px;
 		}
+		&__wrapper1, &__wrapper2 {
+			width: 48%;
+		}
+		&__item {
+			width: 47%;
+		}
 		&__descr {
 			font-size: 13px;
 		}    
@@ -355,6 +361,12 @@
 		}
 		&__wrapper {
 			margin-top: 10px;
+		}
+		&__wrapper1, &__wrapper2 {
+			width: 48%;
+		}
+		&__item {
+			width: 47%;
 		}
 	}
 
@@ -652,6 +664,9 @@
 		&__header-logo {
 			width: 65px;
 		}
+		&__header-phone {
+			font-size: 13px;
+		}
 		&__header-descr {
 			display: none;
 		}
@@ -714,6 +729,28 @@
 				height: 30px;
 				font-size: 9px;	
 			}
+		}
+	}
+}
+
+@media (max-width: 375px) {
+	.reviews {
+		.slick-prev {
+			left: 27%;
+		}
+		.slick-next {
+			left: 73%;
+		}
+	}
+}
+
+@media (max-width: 320px) {
+	.reviews {
+		.slick-prev {
+			left: 22%;
+		}
+		.slick-next {
+			left: 78%;
 		}
 	}
 }
